@@ -1,0 +1,5 @@
+services:
+  web:
+    image: ${DOCKER_USER}/nauraoca13-creator-simple-social-media
+    ports:
+      - "8000:8000"
